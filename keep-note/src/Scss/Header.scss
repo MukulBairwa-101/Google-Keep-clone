@@ -1,0 +1,17 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    .logo-section img{
+        margin: .5rem;
+        width:10rem;
+        height: 5rem;
+        cursor: pointer;
+    }
+    .menu-icon{
+        font-size: 3rem;
+        padding: .2rem;
+        margin: .5rem;
+        cursor: pointer;
+    }
+}

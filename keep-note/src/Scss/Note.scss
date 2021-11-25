@@ -1,0 +1,52 @@
+$box-shadowcolor:rgb(170, 170, 170);
+$inputcolor:#4a4a4a;
+
+.note-container{
+    margin:0;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    
+
+    }
+    .note{
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        flex-direction: column;
+        margin: 2rem;
+        border: .008rem solid  $box-shadowcolor;
+        box-shadow: .004rem  .004rem .2rem  $box-shadowcolor;
+        cursor: pointer;
+        padding: 1rem  ;
+        h4,p{
+            font-size: 1.3rem;
+            border-bottom: .007rem solid $box-shadowcolor;
+            letter-spacing: .1rem;
+            padding-left: .4rem;
+        }
+        .note-icons{
+            display: flex;
+            justify-content: flex-start;
+            
+            .icon{
+                margin-top: 1.5rem;
+                color:crimson;
+                border: .01rem solid  crimson;
+                border-radius: 2rem;
+                padding: .3rem;
+                font-size: 1.7rem;
+                cursor: pointer;
+                margin-left: .4rem;
+                
+    
+                &:hover{
+                    background-color: crimson;
+                    color: white;
+                }
+            }
+        }
+        
+    }
+    
+

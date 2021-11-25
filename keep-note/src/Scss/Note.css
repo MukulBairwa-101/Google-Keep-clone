@@ -1,0 +1,60 @@
+.note-container {
+  margin: 0;
+  margin-top: 5rem;
+}
+
+.note-container h2 {
+  font-size: 1.5rem;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: crimson;
+  width: 50%;
+  padding: .5rem;
+  border-radius: 0rem 1rem .3rem 1rem;
+}
+
+.note-container h2 .keep-icon {
+  font-size: 2rem;
+  color: black;
+}
+
+.note-container .note {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 40%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 2rem;
+  border: 0.008rem solid #aaaaaa;
+  -webkit-box-shadow: 0.004rem 0.004rem 0.2rem #aaaaaa;
+          box-shadow: 0.004rem 0.004rem 0.2rem #aaaaaa;
+  margin-top: 5rem;
+  padding: 1rem;
+}
+
+.note-container .note h4 {
+  font-size: 1.3rem;
+}
+
+.note-container .note .delete-icon {
+  margin-top: 1rem;
+  color: crimson;
+  border: .01rem solid  crimson;
+  border-radius: 2rem;
+  padding: .3rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.note-container .note .delete-icon:hover {
+  background-color: crimson;
+  color: white;
+}
+/*# sourceMappingURL=Note.css.map */

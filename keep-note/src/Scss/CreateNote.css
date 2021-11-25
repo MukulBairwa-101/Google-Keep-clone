@@ -1,0 +1,67 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: .5rem;
+  border: 0.008rem solid #aaaaaa;
+  -webkit-box-shadow: 0.004rem 0.004rem 0.5rem #aaaaaa;
+          box-shadow: 0.004rem 0.004rem 0.5rem #aaaaaa;
+  margin-top: 5rem;
+}
+
+.container h4 {
+  font-size: 1.5rem;
+  color: #3a548c;
+  margin: 1rem;
+}
+
+.container .form-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.container .form-control input[type="text"], .container .form-control textarea {
+  width: 80%;
+  padding: 1rem;
+  margin-bottom: .5rem;
+  color: #4a4a4a;
+}
+
+.container .form-control input[type="text"]:focus, .container .form-control textarea:focus {
+  outline: none;
+}
+
+.container .form-control Button {
+  margin: 1rem;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container .form-control Button .circleaddicon {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=CreateNote.css.map */

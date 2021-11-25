@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+h2{
+    font-size: 1.2rem;
+    color:white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(141, 141, 141);
+    width:50%;
+    padding: .5rem ;
+    border-radius: 0rem 1rem .3rem .7rem;
+    margin-top: 5rem;
+    .keep-icon{
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
+}
